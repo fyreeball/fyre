@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/fyreeball/fyre/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fyreeball/fyre/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="application-name" content="fyreball • fyre1234"/>
+  <meta name="msapplication-TileColor" content="#f83" />
+  <title>fyreball • fyre1234</title>
+  <link rel="icon" type="image/png" href="https://cdn.discordapp.com/avatars/716474086728925205/ff09f1cce7d5d2ab3ff92bd8b400e3c2.png?size=2048" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/gridism.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/7f3d40c980.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+</head>
+<body class="wrap">
+  <header class="animated fadeInDown">
+    <div class="grid">
+      <div class="unit half full-on-mobiles center-on-mobiles">
+        <h1>
+          <a href="#">
+            <div class="avatar">
+              <img src="https://cdn.discordapp.com/avatars/716474086728925205/ff09f1cce7d5d2ab3ff92bd8b400e3c2.png?size=2048">
+            </div>
+            <div class="id">
+              <span class="name">fyreball</span>
+              <span class="handle">fyre1234</span>
+            </div>
+          </a>
+        </h1>
+      </div>
+      <nav class="unit half align-right center-on-mobiles">
+        <ul class="contact">
+          <li>
+            <a href="https://discord.gg/NYcb9Qe">
+              <i class="fas fa-envelope-square"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="sections animated fadeInUp">
+    <section>
+      <div class="grid">
+        <div id="intro" class="unit whole center-on-mobiles">
+          <h1><a class="main-link" href="#intro">#intro</a></h1>
+          <p>im fyre</p><br>
+          <p>im from michigan and </p><br class="hide-on-mobiles">
+          <p>i just love coding :)</p><br>
